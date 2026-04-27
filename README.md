@@ -1,4 +1,4 @@
-# 🔮 Engineering Oracle — RAG Pipeline Laboratory
+# Engineering Oracle — RAG Pipeline Laboratory
 
 A **comprehensive, modular RAG pipeline template** for technical documentation and engineering QA. Every stage offers **multiple strategies** — from naive to state-of-the-art — enabling systematic experimentation and benchmarking.
 
