@@ -1,0 +1,55 @@
+# ============================================================
+# Engineering Oracle — RAG Pipeline Dependencies
+# ============================================================
+# Install: pip install -r requirements.txt
+# ============================================================
+
+# --- Core Framework ---
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-experimental>=0.3.0
+langchain-text-splitters>=0.3.0
+
+# --- LLM Providers ---
+langchain-openai>=0.2.0          # OpenAI API toggle
+langchain-cohere>=0.3.0          # Cohere API toggle
+langchain-ollama>=0.2.0          # Local Ollama models
+
+# --- Embeddings ---
+langchain-huggingface>=0.1.0     # HuggingFace embeddings
+sentence-transformers>=3.0.0     # Sentence transformer models
+InstructorEmbedding>=1.0.1       # Instructor embeddings
+langchain-nomic>=0.1.0           # Nomic embeddings
+
+# --- Document Loaders ---
+pypdf>=4.0.0                     # Naive PDF loading
+pymupdf>=1.24.0                  # Better PDF text extraction
+pdfplumber>=0.11.0               # Table-aware PDF extraction
+unstructured[all-docs]>=0.15.0   # Advanced document parsing
+docx2txt>=0.8                    # Word document loading
+beautifulsoup4>=4.12.0           # Web page parsing
+python-pptx>=0.6.23              # PowerPoint loading
+openpyxl>=3.1.0                  # Excel loading
+
+# --- Vector Stores ---
+faiss-cpu>=1.8.0                 # Facebook AI Similarity Search (CPU)
+# faiss-gpu>=1.8.0               # Uncomment for GPU support
+chromadb>=0.5.0                  # ChromaDB
+qdrant-client>=1.11.0            # Qdrant
+
+# --- Retrieval ---
+rank-bm25>=0.2.2                 # BM25 keyword retrieval
+
+# --- Evaluation ---
+ragas>=0.1.0                     # RAG evaluation framework
+datasets>=2.0.0                  # HuggingFace datasets
+
+# --- Utilities ---
+python-dotenv>=1.0.0             # Environment management
+tiktoken>=0.7.0                  # OpenAI tokenizer
+nltk>=3.9.0                      # NLP toolkit
+spacy>=3.7.0                     # NLP pipeline
+tqdm>=4.66.0                     # Progress bars
+pandas>=2.2.0                    # Data analysis
+tabulate>=0.9.0                  # Table formatting
